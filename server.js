@@ -5,7 +5,7 @@ const path = require('path')
 const dotenv = require('dotenv')
 const cors = require('cors')
 var cookieParser = require('cookie-parser')
-var connectDB = require('./Config/db')
+var connectDB = require('./config/db')
 const authRouter = require('./routes/auth')
 const PORT = process.env.PORT || 5000
 app.use(cors())
